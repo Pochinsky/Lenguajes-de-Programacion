@@ -1,0 +1,4 @@
+#lang racket
+
+(struct node (val left right) #:transparent #:mutable)
+

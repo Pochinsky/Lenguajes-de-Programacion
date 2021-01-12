@@ -1,0 +1,10 @@
+#lang racket
+
+(define (tipos (list))
+  (cond
+    [(null? L1)]
+    [(integer? car L1)(#\E (tipos (cdr L1)))]
+    [(real? car L1)(#\R (tipos(cdr L1)))]
+    [(complex? car L1)(#\C (tipos (cdr L1)))]
+    )
+  )
